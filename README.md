@@ -330,4 +330,12 @@ git commit -m "Initial commit: Add documentation and website"
 git remote add origin <your-github-repo-url>
 git push -u origin main
 ```
-![commit and push](images/26.png)
+![commit and push](images/35.png)
+
+push to master 
+
+![commit and push](images/36.png)
+
+### Live Demo
+
+Visit the live demo at [http://54.197.1.30/index.php](http://54.197.1.30/index.php).
