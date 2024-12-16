@@ -216,6 +216,15 @@ Test the page again: `http://<instance-public-ip>/index.php`.
 
 ![test changes](images/20.png)
 
+  **Verify Database Entries:**
+  ```sql
+   USE web_db;
+   SELECT * FROM visits;
+  ```
+
+   ![Text](images/37.png)
+
+
 ## Step 4: Make the Website Publicly Accessible
 1. Confirm that your security group allows HTTP traffic.
 2. Ensure the public IP or domain points correctly to the instance.
